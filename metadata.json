@@ -1,0 +1,8 @@
+{
+  "name": "HoI4 Translator",
+  "description": "Batch-translate Hearts of Iron IV mod localization without breaking Paradox formatting, variables, colors, or tokens.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

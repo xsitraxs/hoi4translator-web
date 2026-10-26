@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --accent: #F5A524;
+    --accent-hover: #FFBE45;
+    --bg-dark: #16181B;
+    --panel-dark: #1E2023;
+    --panel-alt: #26292D;
+    --border-dark: #2E3237;
+  }
+}
+
+/* Custom scrollbars matching CustomTkinter UI */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3B4147;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4B515A;
+}
+
+/* Range slider styling */
+input[type="range"] {
+  accent-color: #F5A524;
+}

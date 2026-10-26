@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.env
+.env.*
+.env.local
+.env.dev
+.env.development
+.env.test
+.env.testing
+.env.prod
+.env.production
+.python-version
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/
+htmlcov/
+.tox/
+nox/
+.hypothesis/
+
+# Build and distribution artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
+*.spec
+
+# PyInstaller
+*.manifest
+
+# Virtual Environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon?
+
+# Hoi4 Translator — рабочие файлы (не нужны в репо)
+translation_cache.db
+hoi4_translator.log
+*.log
+
+# Java: собирается из java/ (локально и в CI), в git не хранится
+*.class
+hoi4_translator.jar
+HoI4Translator.jar
